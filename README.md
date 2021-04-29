@@ -67,7 +67,7 @@ Contract address and transaction ID will be shown on screen.
 
 ## See Original Readme and Repository
 
-- Yearn Strategy [brownie-strategy-mix](https://github.com/yearn/brownie-strategy-mix)
+- Yearn Brownie Strategy Mix [Github](https://github.com/yearn/brownie-strategy-mix)
 
 # Resources
 
