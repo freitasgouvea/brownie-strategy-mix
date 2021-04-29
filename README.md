@@ -2,13 +2,13 @@
 
 !!! UNDER DEVELOPMENT !!!!
 
-Yearn Strategy Smart Contract for interact with Yearn Vaults with Truffle suite and tests.
+Yearn Strategy Smart Contract for interact with Yearn Vaults using NodeJs and Truffle.
 
 This project was forked from https://github.com/yearn/brownie-strategy-mix (brownie-python)
 
 ## What's new?
 
-Now you can run and deploy your yearn strategy with Truffle and NodeJs.
+Now you can run, edit and deploy your yearn strategy with Truffle and NodeJs.
 
 ### Requeriments to run this repositorie with Truffle
 
@@ -57,7 +57,7 @@ MNENOMIC = // Your metamask's recovery words
 INFURA_API_KEY = // Your Infura API Key after its registration
 VAULT = "Yearn Vault Address"
 ```
-Run migrate command, you can see the networks names at truffle-config.js
+Run migrate command, you can see the networks names and cingurations at `truffle-config.js`
 
 ```sh
 truffle migrate --network <network_name>
@@ -65,11 +65,6 @@ truffle migrate --network <network_name>
 
 Contract address and transaction ID will be shown on screen.
 
-## See Original Readme and Repository
+## Original Repository
 
 - Yearn Brownie Strategy Mix [Github](https://github.com/yearn/brownie-strategy-mix)
-
-# Resources
-
-- Yearn [Discord channel](https://discord.com/invite/6PNv2nF/)
-- Brownie [Gitter channel](https://gitter.im/eth-brownie/community)
