@@ -1,8 +1,8 @@
-# Yearn Strategy Truffle (Javascript)
+# Yearn Strategy JS (Truffle and Javascript)
 
 !!! UNDER DEVELOPMENT !!!!
 
-Yearn Strategy Smart Contract with Truffle suit and tests.
+Yearn Strategy Smart Contract for interact with Yearn Vaults with Truffle suite and tests.
 
 This project was forked from https://github.com/yearn/brownie-strategy-mix (brownie-python)
 
