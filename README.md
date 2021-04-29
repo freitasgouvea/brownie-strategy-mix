@@ -10,7 +10,7 @@ This project was forked from https://github.com/yearn/brownie-strategy-mix (brow
 
 Now you can run and deploy your yearn strategy with Truffle and NodeJs.
 
-## Requeriments to run this repositorie in NodeJs
+### Requeriments to run this repositorie with Truffle
 
 - [Node.js](https://nodejs.org/download/release/latest-v10.x/): `>=10.0.0`
 - [Truffle](https://www.trufflesuite.com/truffle): `v5.1.9`
