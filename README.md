@@ -1,4 +1,4 @@
-# Yearn Strategy Truffle Js
+# Yearn Strategy Truffle (Javascript)
 
 !!! UNDER DEVELOPMENT !!!!
 
