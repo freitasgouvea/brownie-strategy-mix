@@ -36,7 +36,7 @@ contract Strategy is BaseStrategy {
 
     function name() external view override returns (string memory) {
         // Add your own name here, suggestion e.g. "StrategyCreamYFI"
-        return "Strategy<ProtocolName><TokenType>";
+        return "YearnStrategyTruffle";
     }
 
     function estimatedTotalAssets() public view override returns (uint256) {

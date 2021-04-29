@@ -1,5 +1,6 @@
 {
-  "name": "yearn-protocol",
+  "name": "yearn-strategy-truffle",
+  "version": "0.1.0",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -7,7 +8,18 @@
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "prettier-plugin-solidity": "^1.0.0-alpha.57",
-    "pretty-quick": "^3.0.2"
+    "pretty-quick": "^3.0.2",
+    "@openzeppelin/test-helpers": "github:OpenZeppelin/openzeppelin-test-helpers",
+    "chai": "^4.2.0",
+    "truffle-assertions": "^0.9.2"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "dotenv": "^8.2.0",
+    "solc": "0.6.12",
+    "truffle": "5.1.25",
+    "truffle-deploy-registry": "0.5.1",
+    "web3": "^1.2.8"
   },
   "scripts": {
     "lint": "pretty-quick --pattern '**/*.*(sol|json)' --verbose",
