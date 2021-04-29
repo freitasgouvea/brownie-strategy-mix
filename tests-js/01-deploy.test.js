@@ -18,7 +18,7 @@ contract('01-deploy.test', (accounts) => {
         contractInstance = await Artifact.new(vault);
     });
 
-    it('contract must not be paused after deploy', async () => {
+    it('contract name must be YearnStrategyTruffle', async () => {
         const result = await contractInstance.name();
         Assert.equal('YearnStrategyTruffle');
     });
