@@ -1,4 +1,10 @@
-# Yearn Strategy Brownie Mix
+# Yearn Strategy Truffle Js
+
+!!! UNDER DEVELOPMENT !!!!
+
+Yearn Strategy Smart Contract with Truffle suit and tests.
+
+This project was forked from https://github.com/yearn/brownie-strategy-mix (brownie-phyton)
 
 ## What you'll find here
 
