@@ -14,22 +14,13 @@
     "truffle-assertions": "^0.9.2"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
     "@truffle/hdwallet-provider": "^1.0.35",
+    "@yearnvaults/contracts": "^1.0.1",
     "dotenv": "^8.2.0",
     "solc": "0.6.12",
     "truffle": "5.1.25",
     "truffle-deploy-registry": "0.5.1",
     "web3": "^1.2.8"
-  },
-  "scripts": {
-    "lint": "pretty-quick --pattern '**/*.*(sol|json)' --verbose",
-    "lint:check": "prettier --check **/*.sol **/*.json",
-    "lint:fix": "pretty-quick --pattern '**/*.*(sol|json)' --staged --verbose"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint:fix",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   }
 }

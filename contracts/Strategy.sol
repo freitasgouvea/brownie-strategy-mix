@@ -9,13 +9,13 @@ pragma experimental ABIEncoderV2;
 import {
     BaseStrategy,
     StrategyParams
-} from "@yearnvaults/contracts/BaseStrategy.sol";
+} from "./helpers/BaseStrategy.sol";
 import {
     SafeERC20,
     SafeMath,
     IERC20,
     Address
-} from "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
+} from "./helpers/SafeERC20.sol";
 
 // Import interfaces for many popular DeFi projects, or add your own!
 //import "../interfaces/<protocol>/<Interface>.sol";
