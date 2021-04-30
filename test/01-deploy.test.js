@@ -3,7 +3,7 @@ const Assert = require('truffle-assertions');
 
 contract('01-deploy.test', (accounts) => {
 
-    const vault = 'address';
+    const vault = '0xFEB4acf3df3cDEA7399794D0869ef76A6EfAff52';
 
     let contractInstance;
 
